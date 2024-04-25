@@ -20,7 +20,7 @@ func main() {
 	// Iterasi setiap nama batch dan print pesanan
 	for _, batch := range batchNames {
 		// print pesan bahwa sedang memproses batch
-		fmt.Println("Processing ", batch)
+		fmt.Println("Processing", batch)
 
 		// Ambil daftar pesanan dalam batch
 		items := order[batch]
